@@ -60,6 +60,30 @@
             background-color: rgb(135, 135, 135);
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        @media screen and (max-width: 434px){
+            header {
+                height: 70px;
+            }
+
+            .calculadora {
+                margin-top: 30px;
+            }
+        }
+       
+        @media screen and (max-width: 346px){
+            header {
+                height: 70px;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            #h1 {
+                font-size: 30px;
+            }
+
+        }
+
     </style>
     <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
@@ -67,10 +91,10 @@
 
 <body>
     <header>
-        <h1>Minha calculadora pessoal.</h1>
+        <h1 id = "h1">Minha calculadora pessoal.</h1>
     </header>
     <div class="calculadora">
-        <h1>Calculadora</h1>
+        <h1>Daniel Maciel</h1>
         <p id="resultado"></p>
         <table>
             <tr>
